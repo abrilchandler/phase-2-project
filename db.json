@@ -1,0 +1,28 @@
+{
+    "bodybuilders": [
+      {
+        "id": 1,
+        "name": "Ronnie Coleman",
+        "image": "",
+        "avg": "2 hrs"
+      },
+      {
+        "id": 2,
+        "name": "Jay Cutler",
+        "image": "",
+        "avg": "1 1/2 hrs"
+      },
+      {
+        "id": 3,
+        "name": "Dorain Yates",
+        "image": "",
+        "avg": "1 hr"
+      },
+      {
+        "id": 4,
+        "name": "Arnold Schwarzenegger",
+        "image": "",
+        "avg": "5 hrs"
+      }
+    ]
+  }
