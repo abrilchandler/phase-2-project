@@ -22,46 +22,43 @@ const linkStyles={
           background: "darkred",
         }}
         >Home</NavLink>
+
         <NavLink 
-        to="/ronniecoleman"
+        to="/golden"
         exact
         style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
-        >Ronnie Coleman</NavLink>
+        >Golden Era</NavLink>
+
         <NavLink 
-        to="/jaycutler"
+        to="/massmonster"
         exact
         style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
-        >Jay Cutler</NavLink>
+        >Mass Monster Era</NavLink>
+
         <NavLink 
-        to="/dorianyates"
+        to="/modern"
         exact
         style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
-        >Dorian Yates</NavLink>
+        >Modern Era</NavLink>
+
         <NavLink 
-        to="/arnoldschwarzenegger"
+        to="/bronze"
         exact
         style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
-        >Arnold Schwarzenegger</NavLink>
-        <NavLink
-        to="/createyourownworkout"
-        exact
-        style={linkStyles}
-        activeStyle={{
-          background: "darkred",
-        }}
-        >Create Your Own Workout</NavLink>
+        >Bronze Era</NavLink>
+
       </div>
 
     )
