@@ -1,28 +1,28 @@
 {
-    "bodybuilders": [
-      {
-        "id": 1,
-        "name": "Ronnie Coleman",
-        "image": "",
-        "titles": 8
-      },
-      {
-        "id": 2,
-        "name": "Jay Cutler",
-        "image": "",
-        "titles": 4
-      },
-      {
-        "id": 3,
-        "name": "Dorian Yates",
-        "image": "",
-        "titles": 6
-      },
-      {
-        "id": 4,
-        "name": "Arnold Schwarzenegger",
-        "image": "",
-        "titles": 7
-      }
-    ]
-  }
+  "bodybuilders": [
+    {
+      "id": "1",
+      "name": "Ronnie Coleman",
+      "image": "",
+      "titles": 8
+    },
+    {
+      "id": "2",
+      "name": "Jay Cutler",
+      "image": "",
+      "titles": 4
+    },
+    {
+      "id": "3",
+      "name": "Dorian Yates",
+      "image": "",
+      "titles": 6
+    },
+    {
+      "id": "4",
+      "name": "Arnold Schwarzenegger",
+      "image": "",
+      "titles": 7
+    }
+  ]
+}
