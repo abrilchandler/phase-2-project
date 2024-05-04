@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import AddForm from "./AddForm.js";
 
 function Home() {
 
@@ -11,14 +12,14 @@ function Home() {
     .then(data => {
       setData(data);
     });
-    }, []);
+    }, console.log("hi"), []);
 
 
     return (
       <div>
         
       {data && data.map(bodybuilder => (
-        <option key={bodybuilder.id} value={bodybuilder.id}>{bodybuilder.name}</option>
+        <option key={bodybuilder.id} value={bodybuilder.id}>{bodybuilder.name}  |  {bodybuilder.titles}</option>
       ))}
       <div>
       <section>
@@ -32,6 +33,7 @@ function Home() {
             <input type="submit"></input>
           </form>
         </section>
+        <AddForm />
       </div>
       </div>
      

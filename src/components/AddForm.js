@@ -26,12 +26,12 @@ body: JSON.stringify(formData)
   return (
     <div>
       <section>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} method="post">
         <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Name" value={name}></input>
         <br></br>
-        <input onChange={(e) => setImage(e.target.value)} type="text" placeholder="Image url" value={image}></input>
+        <input onChange={(e) => setImage(e.target.value)} type="url" name="image url" placeholder="Image url" value={image}></input>
         <br></br>
-        <input onChange={(e) => setTitles(e.target.value)} type="number" placeholder="# of titles" value={titles}></input>
+        <input onChange={(e) => setTitles(e.target.value)} type="text" placeholder="# of titles" value={titles}></input>
         <button type="submit">Submit</button>
         </form>      
       </section>
