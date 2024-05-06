@@ -7,12 +7,13 @@ function Home() {
 
 
   useEffect(() => {
+    console.log("hi")
     fetch("http://localhost:4000/bodybuilders")
     .then(response => response.json())
     .then(data => {
       setData(data);
     });
-    }, console.log("hi"), []);
+    },[]);
 
 
     return (
@@ -22,18 +23,8 @@ function Home() {
         <option key={bodybuilder.id} value={bodybuilder.id}>{bodybuilder.name}  |  {bodybuilder.titles}</option>
       ))}
       <div>
-      <section>
-          <form>
-            <input type="text" placeholder="Name"></input>
-            <br></br>
-            <input type="text" placeholder="image url"></input>
-            <br></br>
-            <input type="text" placeholder="titles"></input>
-            <br></br>
-            <input type="submit"></input>
-          </form>
-        </section>
-        <AddForm />
+      
+        <AddForm  setData={setData} data={data}/>
       </div>
       </div>
      

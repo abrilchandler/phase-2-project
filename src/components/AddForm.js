@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function AddFormData() {
+function AddFormData({setData, data}) {
   const [name, setName] = useState('');
   const [image, setImage] = useState('');
   const [titles, setTitles] = useState(0);
@@ -20,7 +20,7 @@ headers: {
 body: JSON.stringify(formData)
 })
 .then(response => response.json())
-.then(data => console.log('POST request successful:', data))
+.then(newItem => setData([...data, newItem]))
   }
 
   return (
