@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import AddForm from "./AddForm.js";
+import Golden from "./Golden.js";
 
 function Home() {
 
@@ -15,12 +16,11 @@ function Home() {
     });
     },[]);
 
-
     return (
       <div>
         
       {data && data.map(bodybuilder => (
-        <option key={bodybuilder.id} value={bodybuilder.id}>{bodybuilder.name}  |  {bodybuilder.titles}</option>
+        <option key={bodybuilder.id} value={bodybuilder.id}>{bodybuilder.name}  |  {bodybuilder.titles}  |  {bodybuilder.era}</option>
       ))}
       <div>
       

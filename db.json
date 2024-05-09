@@ -4,43 +4,57 @@
       "id": "1",
       "name": "Ronnie Coleman",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVR6nBeIhWJw7aReZtDSIjR6eQsGZzSDxd8A&s",
-      "titles": 8
+      "titles": 8,
+      "era": "Mass Monster"
     },
     {
       "id": "2",
       "name": "Jay Cutler",
       "image": "https://image-cdn.essentiallysports.com/wp-content/uploads/Jay-Cutler-17-825x1065.jpg",
-      "titles": 4
+      "titles": 4,
+      "era": "Mass Monster"
     },
     {
       "id": "3",
       "name": "Dorian Yates",
       "image": "",
-      "titles": 6
+      "titles": 6,
+      "era": "Mass Monster"
     },
     {
       "id": "4",
       "name": "Arnold Schwarzenegger",
       "image": "",
-      "titles": 7
+      "titles": 7,
+      "era": "golden"
     },
     {
-      "id": "5463",
-      "name": "bo",
+      "id": "70ea",
+      "name": "Frank Zane",
       "image": "",
-      "titles": 0
+      "titles": 0,
+      "era": "Goldern"
     },
     {
-      "id": "0bdc",
-      "name": "vgj",
+      "id": "bfba",
+      "name": "Frank Zane",
       "image": "",
-      "titles": "6"
+      "titles": 0,
+      "era": "Golden"
     },
     {
-      "id": "54ac",
-      "name": "bh",
+      "id": "7f42",
+      "name": "franco Columbo",
       "image": "",
-      "titles": "08"
+      "titles": 0,
+      "era": "golden"
+    },
+    {
+      "id": "78bc",
+      "name": "chris bumstead",
+      "image": "",
+      "titles": "5",
+      "era": "modern"
     }
   ]
 }
