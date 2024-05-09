@@ -5,7 +5,7 @@ function MassMonster() {
     return (
       <div>
         <h1>Mass Monster Era</h1>
-        <AddForm />
+        
         </div>
     )
   }

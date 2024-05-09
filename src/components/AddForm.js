@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
-function AddFormData({setData, data}) {
+function AddForm({ setData, data}) {
   const [name, setName] = useState('');
-  const [image, setImage] = useState('');
   const [titles, setTitles] = useState(0);
   const [era, setEra] = useState("");
 
@@ -10,7 +9,6 @@ function AddFormData({setData, data}) {
     e.preventDefault();
     const formData = {
       name,
-      image,
       titles,
       era
     };
@@ -30,12 +28,16 @@ body: JSON.stringify(formData)
       <section>
         <form onSubmit={handleSubmit} method="post">
         <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Name" value={name}></input>
-        <br></br>
-        <input onChange={(e) => setImage(e.target.value)} type="url" name="image url" placeholder="Image url" value={image}></input>
+       
         <br></br>
         <input onChange={(e) => setTitles(e.target.value)} type="text" placeholder="# of titles" value={titles}></input>
         <br></br>
-        <input onChange={(e) => setEra(e.target.value)} type="text" placeholder="Era" value={era}></input>
+        <select onChange={(e) => setEra(e.target.value)} type="dropdown" placeholder="Era" value={era}>
+          <option>Golden</option>
+          <option>Bronze</option>
+          <option>Modern</option>
+          <option>Mass Monster</option>
+        </select>
         <button type="submit">Submit</button>
         </form>      
       </section>
@@ -43,4 +45,4 @@ body: JSON.stringify(formData)
   )
 }
 
-export default AddFormData
+export default AddForm;

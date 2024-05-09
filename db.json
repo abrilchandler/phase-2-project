@@ -55,6 +55,128 @@
       "image": "",
       "titles": "5",
       "era": "modern"
+    },
+    {
+      "id": "b0a1",
+      "name": "chris bumstead",
+      "image": "",
+      "titles": "5",
+      "era": "modern"
+    },
+    {
+      "id": "27e4",
+      "name": "bdsbs",
+      "image": "",
+      "titles": "in",
+      "era": "nin"
+    },
+    {
+      "id": "f51c",
+      "name": "kmonoin",
+      "image": "",
+      "titles": "4",
+      "era": "kno"
+    },
+    {
+      "id": "4530",
+      "name": "kmonoin",
+      "image": "",
+      "titles": "4",
+      "era": "kno"
+    },
+    {
+      "id": "2a73",
+      "name": "kmonoin",
+      "image": "",
+      "titles": "4",
+      "era": "Modern"
+    },
+    {
+      "id": "700b",
+      "name": "wvv",
+      "image": "",
+      "titles": 0,
+      "era": "Mass Monster"
+    },
+    {
+      "id": "f536",
+      "name": "wvv",
+      "image": "",
+      "titles": 0,
+      "era": "Mass Monster"
+    },
+    {
+      "id": "540f",
+      "name": "wvv",
+      "image": "",
+      "titles": "08",
+      "era": "Mass Monster"
+    },
+    {
+      "id": "0db9",
+      "name": "",
+      "image": "",
+      "titles": 0,
+      "era": ""
+    },
+    {
+      "id": "9c1e",
+      "name": "buv",
+      "image": "",
+      "titles": 0,
+      "era": ""
+    },
+    {
+      "id": "9ee8",
+      "name": "vyvgh",
+      "image": "",
+      "titles": "07",
+      "era": ""
+    },
+    {
+      "id": "c4c0",
+      "name": "bfbfx",
+      "image": "",
+      "titles": "09",
+      "era": "Modern"
+    },
+    {
+      "id": "16c1",
+      "name": "bfbfx",
+      "image": "",
+      "titles": "09",
+      "era": "Modern"
+    },
+    {
+      "id": "a1c7",
+      "name": "nfx",
+      "image": "",
+      "titles": "30",
+      "era": "Bronze"
+    },
+    {
+      "id": "ba96",
+      "name": "bill",
+      "titles": "70",
+      "era": "Mass Monster"
+    },
+    {
+      "id": "bf8d",
+      "name": "bill",
+      "titles": "70",
+      "era": "Mass Monster"
+    },
+    {
+      "id": "4cad",
+      "name": "chcfm",
+      "titles": 0,
+      "era": "Modern"
+    },
+    {
+      "id": "fe56",
+      "name": "ngf,dt",
+      "titles": 0,
+      "era": "Bronze"
     }
   ]
 }
