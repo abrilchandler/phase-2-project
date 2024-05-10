@@ -6,15 +6,12 @@ import Golden from "./Golden.js";
 import MassMonster from "./MassMonster.js";
 import Modern from "./Modern.js";
 import Bronze from "./Bronze.js";
+import '../App.css';
 
 
 function App() {
 
   const [data, setData] = useState([]);
-  
-
-  
-  
 
   useEffect(() => {
     console.log("hi")
@@ -47,13 +44,7 @@ function App() {
       <Home setData={setData} data={data}/>
     </Route>
     </Switch>
-    {/*This below is displaying all the data across every page*/}
    
-    {/*
-    {data.length > 0 && data.map(bodybuilder => (
-        <option key={bodybuilder.id} value={bodybuilder.id}>{bodybuilder.name}  |  {bodybuilder.titles}  |  {bodybuilder.era}</option>
-      ))}
-    */}
     </div>
   )
 }

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* .navBar is a class selector. that className needs to be attached to your nav bar  */
+.navLinks:hover { 
+  background-color: grey;
+}
+
+.navBar {
+  width: 100%;
+  align-items: justify;
+}
+
+.navLinks {
+  display: inline-block;
+  width: 16.9%;
+  margin-left: 10px;
+  align-items: center;
+  padding: 10px;
+  background: red;
+  color: white;
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  
+}
+
+
+body {
+  background-image: url("/Users/chandlerabril/Development/code/phase-2/phase-2-project/src/Olympia.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.transparent-card {
+  background-color: rgba(0,0,0,.2);
+  color: #fff;
+  opacity: .7;
 }

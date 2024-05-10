@@ -1,64 +1,60 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-const linkStyles={
-    display: "inline-block",
-    width: 25,
-    padding: "12px",
-    margin: "0 0 0 ",
-    background: "red",
-    textDecoration: "none",
-    color: "white"
-  }
-  
   function NavBar() {
     return (
-      <div>
+      <div className="navBar">
+        <div className="navLinks">
         <NavLink
         to="/"
         exact
-        style={linkStyles}
+        // className="navLinks"
+        //style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
         >Home</NavLink>
-
+      </div>
+      <div className="navLinks">
         <NavLink 
         to="/golden"
         exact
-        style={linkStyles}
+        //style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
         >Golden Era</NavLink>
-
+      </div>
+      <div className="navLinks">
         <NavLink 
         to="/massmonster"
         exact
-        style={linkStyles}
+        // style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
         >Mass Monster Era</NavLink>
-
+</div>
+<div className="navLinks">
         <NavLink 
         to="/modern"
         exact
-        style={linkStyles}
+        // style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
         >Modern Era</NavLink>
-
+</div>
+<div className="navLinks">
         <NavLink 
         to="/bronze"
         exact
-        style={linkStyles}
+        // style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
         >Bronze Era</NavLink>
-
+</div>
       </div>
 
     )
