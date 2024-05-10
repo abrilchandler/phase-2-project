@@ -33,6 +33,7 @@ body: JSON.stringify(formData)
         <input onChange={(e) => setTitles(e.target.value)} type="text" placeholder="# of titles" value={titles}></input>
         <br></br>
         <select onChange={(e) => setEra(e.target.value)} type="dropdown" placeholder="Era" value={era}>
+          <option value="">Select the Era</option>
           <option>Golden</option>
           <option>Bronze</option>
           <option>Modern</option>

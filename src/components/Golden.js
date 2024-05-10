@@ -1,10 +1,16 @@
 import React from "react";
+import Bodybuilder from "./Bodybuilder.js";
 
-function Golden() {
+function Golden({data}) {
+
+  const goldenEraBodybuilders = data.filter(bodybuilder => bodybuilder.era.toLowerCase() === "golden")
+
     return (
       <div>
         <h1>Golden Era</h1>
-        
+        {goldenEraBodybuilders.map(bodybuilder => (
+          <Bodybuilder bodybuilder={bodybuilder} />
+        ))}
       </div>
     )
   }

@@ -6,15 +6,16 @@ import Golden from "./Golden.js";
 import MassMonster from "./MassMonster.js";
 import Modern from "./Modern.js";
 import Bronze from "./Bronze.js";
-import AddForm from "./AddForm.js";
-
-
 
 
 function App() {
 
   const [data, setData] = useState([]);
   
+
+  
+  
+
   useEffect(() => {
     console.log("hi")
     fetch("http://localhost:4000/bodybuilders")
@@ -23,32 +24,36 @@ function App() {
       setData(data);
     });
     },[]);
+
+
   return (
     <div>
     <NavBar />
     <Switch>
     <Route path="/golden">
-      <Golden />
+      <Golden data={data}/>
     </Route>
     <Route path="/massmonster">
-      <MassMonster />
+      <MassMonster data={data}/>
     </Route>
     <Route path="/modern">
-      <Modern />
+      <Modern data={data}/>
     </Route>
     <Route path="/bronze">
-      <Bronze />
+      <Bronze data={data}/>
     </Route>
     
     <Route path="/">
-      <Home />
+      <Home setData={setData} data={data}/>
     </Route>
-    </Switch> 
-    <AddForm setData={setData} data={data}/>
+    </Switch>
+    {/*This below is displaying all the data across every page*/}
+   
+    {/*
     {data.length > 0 && data.map(bodybuilder => (
         <option key={bodybuilder.id} value={bodybuilder.id}>{bodybuilder.name}  |  {bodybuilder.titles}  |  {bodybuilder.era}</option>
       ))}
-      
+    */}
     </div>
   )
 }
