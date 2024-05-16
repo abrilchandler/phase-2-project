@@ -66,10 +66,10 @@
 
 
 body {
-  background-image: url("/Users/chandlerabril/Development/code/phase-2/phase-2-project/src/Olympia.jpeg");
-  background-size: cover;
+  background-image: url("/Users/chandlerabril/Downloads/logo-footer.png");
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: initial;
 }
 
 .transparent-card {
