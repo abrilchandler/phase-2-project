@@ -39,9 +39,8 @@ function App() {
     <Route path="/bronze">
       <Bronze data={data}/>
     </Route>
-    
     <Route path="/">
-      <Home setData={setData} data={data}/>
+      <Home data={data} setData={setData}/>
     </Route>
     </Switch>
    

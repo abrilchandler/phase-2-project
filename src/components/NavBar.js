@@ -8,8 +8,6 @@ import {NavLink} from "react-router-dom";
         <NavLink
         to="/"
         exact
-        // className="navLinks"
-        //style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
@@ -19,7 +17,6 @@ import {NavLink} from "react-router-dom";
         <NavLink 
         to="/golden"
         exact
-        //style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
@@ -29,7 +26,6 @@ import {NavLink} from "react-router-dom";
         <NavLink 
         to="/massmonster"
         exact
-        // style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
@@ -39,7 +35,6 @@ import {NavLink} from "react-router-dom";
         <NavLink 
         to="/modern"
         exact
-        // style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
@@ -49,7 +44,6 @@ import {NavLink} from "react-router-dom";
         <NavLink 
         to="/bronze"
         exact
-        // style={linkStyles}
         activeStyle={{
           background: "darkred",
         }}
