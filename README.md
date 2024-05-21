@@ -2,6 +2,7 @@
 
 to run the json server: `json-server --watch db.json`
 
+to run the react app: `npm start`
 ## Introduction
 The Phase 2 Project is my attempt React App to utilize client-side routing with a json-server, and multiple components to better organize my code. 
 
