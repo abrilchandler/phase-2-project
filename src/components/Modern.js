@@ -1,7 +1,6 @@
 import React from "react";
 import Bodybuilder from "./Bodybuilder.js";
 
-
 function Modern({data}) {
     const modernEraBodybuilders = data.filter(bodybuilder => bodybuilder.era.toLowerCase() === "modern");
 

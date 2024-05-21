@@ -48,7 +48,7 @@ import {NavLink} from "react-router-dom";
           background: "darkred",
         }}
         >Bronze Era</NavLink>
-</div>
+    </div>
       </div>
 
     )
