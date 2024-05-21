@@ -21,7 +21,6 @@ body: JSON.stringify(formData)
 })
 .then(response => response.json())
 .then(newItem => setData([...data, newItem]));
-
   }
 
   return (

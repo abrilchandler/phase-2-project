@@ -8,7 +8,6 @@ import Modern from "./Modern.js";
 import Bronze from "./Bronze.js";
 import '../App.css';
 
-
 function App() {
 
   const [data, setData] = useState([]);
@@ -21,8 +20,7 @@ function App() {
       setData(data);
     });
     },[]);
-
-
+    
   return (
     <div>
     <NavBar />
@@ -43,7 +41,6 @@ function App() {
       <Home data={data} setData={setData}/>
     </Route>
     </Switch>
-   
     </div>
   )
 }
