@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 function Bodybuilder({bodybuilder}) {
     return (
         <Card variant="outlined" key={bodybuilder.id} className="transparent-card">
-            <CardContent >
+            <CardContent>
                 <h2>{bodybuilder.name}  |  {bodybuilder.titles} Olympia Title(s)</h2>
           </CardContent>
         </Card>
