@@ -13,6 +13,7 @@ import {NavLink} from "react-router-dom";
         }}
         >Home</NavLink>
       </div>
+      
       <div className="navLinks">
         <NavLink 
         to="/golden"
@@ -22,6 +23,7 @@ import {NavLink} from "react-router-dom";
         }}
         >Golden Era</NavLink>
       </div>
+
       <div className="navLinks">
         <NavLink 
         to="/massmonster"
@@ -31,6 +33,7 @@ import {NavLink} from "react-router-dom";
         }}
         >Mass Monster Era</NavLink>
 </div>
+
 <div className="navLinks">
         <NavLink 
         to="/modern"
@@ -40,6 +43,7 @@ import {NavLink} from "react-router-dom";
         }}
         >Modern Era</NavLink>
 </div>
+
 <div className="navLinks">
         <NavLink 
         to="/bronze"
