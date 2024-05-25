@@ -24,28 +24,22 @@ function App() {
   return (
     <div>
     <NavBar />
-
     <Switch>
     <Route path="/golden">
       <Golden data={data}/>
     </Route>
-
     <Route path="/massmonster">
       <MassMonster data={data}/>
     </Route>
-
     <Route path="/modern">
       <Modern data={data}/>
     </Route>
-
     <Route path="/bronze">
       <Bronze data={data}/>
     </Route>
-
     <Route path="/">
-      <Home data={data} setData={setData}/>
+      <Home setData={setData} data={data}/>
     </Route>
-    
     </Switch>
     </div>
   )
