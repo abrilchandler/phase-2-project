@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-
+// calling useState declares a "state variable", 
+// useState returns the [current state, function the updates current state] 
+// call setState in a function to update
 function AddForm({ setData, data}) {
-  const [name, setName] = useState('');
-  const [titles, setTitles] = useState(0);
-  const [era, setEra] = useState("");
+  const [name, setName] = useState(''); //array destructuring
+  const [titles, setTitles] = useState(0); // array destructuring
+  const [era, setEra] = useState(""); // array destructuring
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -12,6 +14,7 @@ function AddForm({ setData, data}) {
       titles,
       era
     };
+    
     fetch('http://localhost:4000/bodybuilders', {
 method: 'POST',
 headers: {
@@ -21,6 +24,10 @@ body: JSON.stringify(formData)
 })
 .then(response => response.json())
 .then(newItem => setData([...data, newItem]));
+
+setTitles(0);
+setEra('');
+setName('');
   }
 
   return (

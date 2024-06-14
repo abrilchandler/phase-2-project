@@ -41,6 +41,18 @@
       "name": "Franco Columbo",
       "titles": "2",
       "era": "Golden"
+    },
+    {
+      "id": "e76d",
+      "name": "Chris ",
+      "titles": 0,
+      "era": ""
+    },
+    {
+      "id": "67f2",
+      "name": "Chris Bumstead",
+      "titles": "5",
+      "era": "modern"
     }
   ]
 }

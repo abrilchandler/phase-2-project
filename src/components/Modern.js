@@ -2,12 +2,12 @@ import React from "react";
 import Bodybuilder from "./Bodybuilder.js";
 
 function Modern({data}) {
-    const modernEraBodybuilders = data.filter(bodybuilder => bodybuilder.era.toLowerCase() === "modern");
+   // const modernEraBodybuilders = data.filter(bodybuilder => bodybuilder.era.toLowerCase() === "modern");
 
     return (
     <div>
         <h1>Modern Era</h1>
-        {modernEraBodybuilders.map(bodybuilder => (
+        {data.map(bodybuilder => (
             <Bodybuilder bodybuilder={bodybuilder} />
         ))}
     </div>

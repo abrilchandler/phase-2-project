@@ -3,12 +3,12 @@ import Bodybuilder from "./Bodybuilder.js";
 
 function Golden({data}) {
 
-  const goldenEraBodybuilders = data.filter(bodybuilder => bodybuilder.era.toLowerCase() === "golden")
+  // const goldenEraBodybuilders = data.filter(bodybuilder => bodybuilder.era.toLowerCase() === "golden")
 
     return (
       <div>
         <h1>Golden Era</h1>
-        {goldenEraBodybuilders.map(bodybuilder => (
+        {data.map(bodybuilder => (
           <Bodybuilder bodybuilder={bodybuilder} />
         ))}
       </div>
